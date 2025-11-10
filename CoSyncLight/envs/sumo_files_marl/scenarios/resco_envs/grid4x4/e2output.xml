@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-07-30 13:11:58 by Eclipse SUMO libsumo Version 1.24.0
+<libsumoConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/libsumoConfiguration.xsd">
+
+    <input>
+        <net-file value="/public/zl/PythonProject/traffic/SoftHardAttention-v7/CoSyncLight/envs/sumo_files_marl/scenarios/resco_envs/grid4x4/grid4x4.net.xml"/>
+        <route-files value="/public/zl/PythonProject/traffic/SoftHardAttention-v7/CoSyncLight/envs/sumo_files_marl/scenarios/resco_envs/grid4x4/grid4x4_760.rou.xml"/>
+        <additional-files value="/public/zl/PythonProject/traffic/SoftHardAttention-v7/CoSyncLight/envs/sumo_files_marl/scenarios/resco_envs/grid4x4/e1.add.xml, /public/zl/PythonProject/traffic/SoftHardAttention-v7/CoSyncLight/envs/sumo_files_marl/scenarios/resco_envs/grid4x4/e2.add.xml"/>
+    </input>
+
+    <processing>
+        <time-to-teleport value="600"/>
+    </processing>
+
+    <report>
+        <no-warnings value="True"/>
+        <duration-log.disable value="True"/>
+        <no-step-log value="True"/>
+    </report>
+
+    <random_number>
+        <random value="true"/>
+    </random_number>
+
+</libsumoConfiguration>
